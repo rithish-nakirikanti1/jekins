@@ -1,4 +1,5 @@
-#!/bin/bash
-echo "Hello from Jenkins Freestyle Git Job!"
-echo "The current branch is: $(git branch --show-current)"
-echo "Today is: $(date)"
+public class HelloJenkins {
+    public static void main(String[] args) {
+        System.out.println("Hello from Jenkins Freestyle Job!");
+    }
+}
